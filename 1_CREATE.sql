@@ -1,4 +1,4 @@
---------------------------------------------------------------------------
+--------------------------------------------------------------------------s
 -- ELIMINACIÓN DE TABLAS (SI EXISTEN)
 -- Antes de crear nuevamente las tablas, nos aseguramos de borrarlas
 -- si existen para evitar errores de duplicado.
