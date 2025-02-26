@@ -59,21 +59,21 @@ SELECT
 
 -- Ejemplo de consulta SQL para seleccionar correos electrónicos y nombres de instructores
 -- Ordenados por la fecha de carga en orden ascendente
-
+SELECT * FROM INSTRUCTORS;
 -- Seleccionar las columnas 'eMail' y 'FIRSTNAME' de la tabla 'INSTRUCTORS'
 SELECT 
     email,          -- Columna que almacena el correo electrónico del instructor
-    FIRSTNAME       -- Columna que almacena el nombre del instructor
+    FIRST_NAME       -- Columna que almacena el nombre del instructor
 FROM 
     INSTRUCTORS     -- Nombre de la tabla que contiene los datos de los instructores
 ORDER BY 
-    LOADDATE ASC;   -- Ordenar los resultados por la columna 'LOADDATE' en orden ascendente (más antiguo a más reciente)
+    LOAD_DATE ASC;   -- Ordenar los resultados por la columna 'LOADDATE' en orden ascendente (más antiguo a más reciente)
 
 -- Obtener todas las columnas de la tabla cursos
-SELECT * FROM cursos;
+SELECT * FROM COURSES;
 
 -- Contar la cantidad total de cursos con el alias "cantidad"
-SELECT COUNT(*) AS cantidad FROM cursos;
+SELECT COUNT(*) AS cantidad FROM COURSES;
 
 -- Seleccionar las columnas nombre, profe y n_calificaciones renombrándolas
-SELECT nombre AS name, profe AS teacher, n_calificaciones AS n_reviews FROM cursos;
+-- SELECT nombre AS name, profe AS teacher, n_calificaciones AS n_reviews FROM COURSES;
