@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/1_CREATE.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/2_SELECT.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/3_Where.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/4_COUNT.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/5_(MIN, MAX).sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/COURSES-WHERE.sql" dialect="SQLite" />
+  </component>
+</project>

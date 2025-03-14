@@ -1,7 +1,6 @@
 -- Ejemplos básicos de SELECT en SQL
 
 -- 1. Operaciones aritméticas simples
--- Seleccionar el resultado de una suma
 SELECT 2 + 2 AS suma; -- Devuelve 4
 
 -- Seleccionar el resultado de una división con resultado entero
