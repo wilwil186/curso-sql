@@ -18,3 +18,12 @@ Son útiles para hacer consultas más legibles y estructuradas, especialmente cu
 operaciones complejas o reutilizar subconsultas.
 );
 */
+/*
+WITH AVERAGESALARIES AS (
+    SELECT 
+        DEPARTMENT_ID, 
+        AVG(SALARY) AS AVERAGE_SALARY
+    FROM EMPLOYEES JOIN DEPARTMENTS ON DEPARTMENT_ID = DEPARTMENT_ID
+    GROUP BY DEPARTMENT_ID
+)
+/*
